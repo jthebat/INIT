@@ -3,6 +3,7 @@ import express, {Application, Request, Response, NextFunction} from 'express';
 //import logging from './config/logging';
 import config from './config/config';
 import productRoutes from './routes/product';
+import mongoose from 'mongoose';
 
 
 const router = express();
